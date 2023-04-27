@@ -7,7 +7,7 @@ st.title("Book Rating Prediction Model")
 
 with open("idx.yaml") as f:
     idx = yaml.load(f, Loader=yaml.FullLoader)
-st.write(idx.keys())
+# st.write(idx.keys())
 
 age = st.selectbox('Please select age!',
                       idx['age_bin'].keys())
@@ -38,15 +38,14 @@ cat_value = int(idx['major_cat'][category])
 
 
 input_data = [age_value, country_value, pub_value, cat_value]
-st.write(input_data)
+# st.write(input_data)
 
 def load_predict(input_data) :
     
     input_data = torch.tensor(input_data)
     model = load_model()
-    st.write(model)
     y_hat = get_prediction(model, input_data)
     
     return y_hat
 
-st.write(load_predict(input_data))    
+st.header(f"Predicted Rating : {load_predict(input_data)}")    
