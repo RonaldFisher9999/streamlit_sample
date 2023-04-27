@@ -1,0 +1,5 @@
+args:
+  field_dims: [49, 8, 7, 57]
+  embed_dim: 25
+
+model_path: ./assets/models/model.pt

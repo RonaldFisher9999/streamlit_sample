@@ -1,0 +1,128 @@
+age_bin:
+  Unknown: 0
+  Under 20: 1
+  Under 30: 2
+  Under 40: 3
+  Under 50: 4
+  Under 60: 5
+  Under 70: 6
+  Over 70: 7
+
+country:
+  argentina: 47
+  australia: 9
+  austria: 18
+  belgium: 19
+  brazil: 5
+  bulgaria: 42
+  canada: 0
+  chile: 45
+  china: 24
+  costarica: 41
+  croatia: 48
+  czechrepublic: 31
+  denmark: 32
+  egypt: 30
+  finland: 28
+  france: 11
+  germany: 6
+  greece: 36
+  hongkong: 35
+  hungary: 46
+  iceland: 37
+  india: 15
+  indonesia: 25
+  iran: 17
+  ireland: 27
+  israel: 43
+  italy: 7
+  japan: 26
+  luxembourg: 38
+  malaysia: 3
+  mexico: 33
+  netherlands: 10
+  newzealand: 4
+  norway: 39
+  others/unknown: 2
+  philippines: 20
+  poland: 29
+  portugal: 8
+  romania: 16
+  singapore: 14
+  slovenia: 44
+  southafrica: 21
+  southkorea: 34
+  spain: 13
+  sweden: 40
+  switzerland: 22
+  turkey: 23
+  unitedkingdom: 12
+  usa: 1
+
+major_cat:
+  actor: 52
+  adventure: 27
+  animal: 49
+  antique: 50
+  architect: 53
+  art: 37
+  bibles: 45
+  biography: 1
+  business: 14
+  children`s stories: 39
+  comic: 22
+  computer: 31
+  cook: 9
+  craft: 44
+  crime: 16
+  criticism: 19
+  detective: 51
+  drama: 20
+  education: 35
+  fairy tales: 38
+  family: 34
+  fantasy: 55
+  fiction: 3
+  friend: 40
+  game: 15
+  garden: 56
+  health: 11
+  history: 4
+  house: 47
+  humor: 8
+  juvenile fiction: 10
+  juvenile nonfiction: 25
+  language: 21
+  law: 48
+  literary: 33
+  mathematics: 54
+  medical: 2
+  music: 26
+  na: 18
+  nature: 29
+  others/unknown: 0
+  pets: 43
+  philosophy: 5
+  photography: 24
+  poetry: 28
+  politics: 30
+  psychology: 36
+  reference: 7
+  religion: 12
+  science: 13
+  science-fiction: 42
+  self: 6
+  social: 23
+  spirit: 32
+  sport: 41
+  tech: 46
+  travel: 17
+
+year_bin:
+  Before 1950: 0
+  Before 1960: 1
+  Before 1970: 2
+  Before 1980: 3
+  Before 1990: 4
+  Before 2000: 5
+  Before 2010: 6
