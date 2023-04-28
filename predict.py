@@ -1,9 +1,7 @@
 import torch
 import streamlit as st
 from model import MyFactorizationMachine
-from utils import transform_image
 import yaml
-from typing import Tuple
 
 @st.cache_data
 def load_model() -> MyFactorizationMachine:

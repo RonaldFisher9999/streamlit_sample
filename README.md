@@ -1,15 +1,17 @@
 # Streamlit
 
-## 환경 설정
+## Required Version
 
 ```
-virtualenv --python=python3 env
-source env/bin/activate
-pip3 install --upgrade pip
-pip3 install -r requirements.txt
+Python==3.10.0
+
+numpy==1.24.3
+PyYAML==6.0
+streamlit==1.21.0
+torch==2.0.0
 ```
 
-## Streamlit 실행
+## Run Streamlit
 
 ```
 streamlit run app.py
